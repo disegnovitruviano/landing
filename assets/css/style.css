@@ -1142,13 +1142,23 @@ label.error {
 	background: #0f92d1 !important;
 }
 
-.is-transparent .navbar-default .navbar-nav > li > a {
-	color: #fff;
+/*.is-transparent .navbar-default .navbar-nav .nav-pages > li > a {
+  color: #333 !important;
+}*/
+
+#homepage-nav .is-transparent .navbar-default .navbar-nav > li > a {
+  color: #fff;
 }
+
+.is-transparent .navbar-default .navbar-nav > li > a {
+  color: #333;
+}
+
 .navbar-default .in .navbar-nav > li > a,
 .affix .navbar-default .navbar-nav > li > a {
 	color: #333;
 }
+
 .navbar-nav > li > a:after {
 	content:"";
 	position:absolute;
@@ -1211,7 +1221,13 @@ label.error {
 }
 
 .logo {
-	width: 20%;
+	width: 200px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .is-transparent .navbar-brand .logo-light{
@@ -1219,14 +1235,18 @@ label.error {
 }
 
 .is-transparent .navbar-brand .logo-color{
-    display: none
+    display: none;
+    align-items: center !important;
 }
 .affix .navbar-brand .logo-light {
-    display: none
+    display: none;
+    align-items: center !important;
 }
 .affix .navbar-brand .logo-color{
     display: block;
+    align-items: center !important;
 }
+
 .dropdown{
 	position:relative;
 }
@@ -1330,6 +1350,7 @@ label.error {
 	.is-transparent .navbar-default .navbar-nav > li > a{
 		color: #333;
 	}
+
 	.navigation {
 		padding: 15px 0;
 	}
@@ -1378,16 +1399,24 @@ label.error {
 	.dropdown-menu:after{
 		display:none;
 	}
-	.navbar-default .in .navbar-nav > li > a:hover,
-	.navbar-default .in .navbar-nav > li > a:focus,
-	.navbar-default .navbar-nav > li > a:hover,
-	.affix .navbar-default .navbar-nav > li > a:focus,
-	.affix .navbar-default .navbar-nav > .active > a,
-	.affix .navbar-default .navbar-nav > .active > a:hover,
-	.affix .navbar-default .navbar-nav > .active > a:focus {
-		color: #fff;
-		background:#e0486e;
-	}
+
+  .navbar-default .in .navbar-nav > li > a:hover,
+  .navbar-default .in .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > li > a:hover,
+  .affix .navbar-default .navbar-nav > li > a:focus,
+  .affix .navbar-default .navbar-nav > .active > a,
+  .affix .navbar-default .navbar-nav > .active > a:hover,
+  .affix .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background:#e0486e;
+  }
+
+   #nav-pages {
+    color: #333;
+
+  }
+
+
 	.dropdown:after{
 		display:none;
 	}
@@ -1438,7 +1467,7 @@ label.error {
 }
 .mockup-screen{
 	position:absolute;
-	max-width:305px;
+	max-width:450px;
 	top:0;
 }
 .mockup-screen-one{
@@ -2300,5 +2329,8 @@ label.error {
 	body, .navigation {
 		min-width:300px;
 	}
+}
+.flex {
+  display: flex;
 }
 /* End */
