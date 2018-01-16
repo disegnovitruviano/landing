@@ -1467,7 +1467,7 @@ label.error {
 }
 .mockup-screen{
 	position:absolute;
-	max-width:450px;
+	max-width:500px;
 	top:0;
 }
 .mockup-screen-one{
@@ -1478,7 +1478,7 @@ label.error {
 	z-index:20;
 }
 .mockup-screen-two{
-	z-index:19;
+  z-index:19;
 	left:105px;
 }
 .mockup-screen-three{
