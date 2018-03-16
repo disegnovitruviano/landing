@@ -348,7 +348,7 @@ label.error {
 	display:inline-block;
 	color:#fff;
 	text-align:center;
-	background:#e0486e;
+	background:#0F92D1;
 	-webkit-transition:all .5s ease;
 	-moz-transition:all .5s ease;
 	transition:all .5s ease;
@@ -396,7 +396,7 @@ label.error {
 	width:auto !important;
 }
 .heading span{
-	color:#0F92D1;
+	color:#0F92D1 !important;
 }
 .heading-light{
 	color:#fff;
@@ -1116,8 +1116,8 @@ label.error {
 .affix .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-	background-color: #0F92D1;
-	border-color: #0F92D1;
+	background-color: #0F92D1 !important;
+	border-color: #0F92D1 !important;
 }
 .nav > li > a {
 	padding: 15px 0;
