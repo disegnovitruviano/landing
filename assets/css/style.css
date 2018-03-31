@@ -2374,6 +2374,12 @@ label.error {
 
 /* 15. Footer Section*/
 
+.footer-flexbox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
 .footer-section{
 	background:#404040;
 	padding:20px 0;
