@@ -350,7 +350,11 @@ blockquote{
 
 .logo {
 	width: 315px;
-  padding-bottom: 15px;
+  padding-bottom: 80px;
+}
+
+.logo-pages {
+  margin-left: -15px;
 }
 
 .flex {
@@ -415,6 +419,11 @@ blockquote{
 	border-radius:8px;
 	content:"";
 }
+
+.photo-border img {
+  border-radius: 3px;
+  opacity: 0.8;
+}
 .team-member .team-photo img {
   margin: 0;
   width: 100%;
@@ -423,6 +432,11 @@ blockquote{
 }
 .team-member .team-info {
     margin-top: 25px
+}
+
+.team-info p {
+  color: #595757;
+  font-weight: bolder;
 }
 .team-member .team-info h4,
 .team-member .team-info .name {
