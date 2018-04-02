@@ -293,6 +293,10 @@ blockquote{
   color: #595757;
 }
 
+#about {
+  margin-bottom: 45px;
+}
+
 .gray-background{
 	background:#fafafa;
 }
