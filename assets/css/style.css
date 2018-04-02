@@ -350,11 +350,15 @@ blockquote{
 
 .logo {
 	width: 315px;
-  padding-bottom: 80px;
+}
+
+.logo-index {
+  padding-bottom: 20px;
 }
 
 .logo-pages {
   margin-left: -15px;
+  padding-bottom: 80px;
 }
 
 .flex {
