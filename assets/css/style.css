@@ -367,6 +367,7 @@ blockquote{
 .logo-pages {
   margin-left: -15px;
   padding-bottom: 80px;
+  padding-left: 10px;
 }
 
 .flex {
@@ -512,6 +513,7 @@ blockquote{
 	color:#979797;
 	font-size:.813em;
 	margin:0 10px;
+  margin-bottom: 10px;
   font-weight: bolder;
   margin-top: 20px;
 }
